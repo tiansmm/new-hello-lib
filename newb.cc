@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
-    cout << "this is new branch" << endl;
+    int i = 1;
+    i <<= 2 + 3;
+    cout << i << endl;
     return 0;
 }
